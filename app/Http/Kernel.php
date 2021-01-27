@@ -15,10 +15,6 @@ class Kernel extends HttpKernel
      */
     protected $middleware = [
         \App\Http\Middleware\TrustProxies::class,
-<<<<<<< HEAD
-=======
-        \Fruitcake\Cors\HandleCors::class,
->>>>>>> 29ff12519d03a6e3df07352a04477b84292c74fd
         \App\Http\Middleware\CheckForMaintenanceMode::class,
         \Illuminate\Foundation\Http\Middleware\ValidatePostSize::class,
         \App\Http\Middleware\TrimStrings::class,
@@ -43,11 +39,7 @@ class Kernel extends HttpKernel
 
         'api' => [
             'throttle:60,1',
-<<<<<<< HEAD
             'bindings',
-=======
-            \Illuminate\Routing\Middleware\SubstituteBindings::class,
->>>>>>> 29ff12519d03a6e3df07352a04477b84292c74fd
         ],
     ];
 
@@ -71,7 +63,6 @@ class Kernel extends HttpKernel
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
         'admin' => \App\Http\Middleware\IsAdmin::class,
     ];
-<<<<<<< HEAD
 
     /**
      * The priority-sorted list of middleware.
@@ -89,6 +80,4 @@ class Kernel extends HttpKernel
         \Illuminate\Routing\Middleware\SubstituteBindings::class,
         \Illuminate\Auth\Middleware\Authorize::class,
     ];
-=======
->>>>>>> 29ff12519d03a6e3df07352a04477b84292c74fd
 }

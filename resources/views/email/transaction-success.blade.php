@@ -304,7 +304,7 @@
                                             <table cellpadding="0" cellspacing="0" width="100%" border="0" style="cellspacing:0;color:#000000;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;table-layout:auto;width:100%;">
                                                 <tr>
                                                     <td style="width: 50px;"><img src="{{ url('frontend/images/ic-help.png') }}" width="50px"></td>
-                                                    <td style="font-size: 18px; padding-left: 10px; color: #071C4D; font-family: Assistant, Helvetica, Arial, sans-serif">support@bbjoo.com
+                                                    <td style="font-size: 18px; padding-left: 10px; color: #071C4D; font-family: Assistant, Helvetica, Arial, sans-serif">support@nomads.id
                                                         <br>021-2019-2022</td>
                                                 </tr>
                                             </table>

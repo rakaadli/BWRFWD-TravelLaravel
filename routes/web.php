@@ -1,10 +1,5 @@
 <?php
 
-<<<<<<< HEAD
-=======
-use Illuminate\Support\Facades\Route;
-
->>>>>>> 29ff12519d03a6e3df07352a04477b84292c74fd
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,7 +11,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-<<<<<<< HEAD
 Route::get('/', 'HomeController@index')
     ->name('home');
 
@@ -49,48 +43,11 @@ Route::prefix('admin')
     ->group(function() {
         Route::get('/', 'DashboardController@index')
             ->name('dashboard');
-=======
-Route::get('/', 'HomeController@index')->name('home');
-
-Route::get('/detail/{slug}', 'DetailController@index')->name('detail');
-
-// Route::get('/checkout', 'CheckoutController@index')->name('checkout');
-
-// Route::get('/success', 'CheckoutController@success')->name('checkout-success');
-
-Route::post('/checkout/{id}', 'CheckoutController@process')
-->name('checkout_process')
-->middleware(['auth','verified']);
-
-Route::get('/checkout/{id}', 'CheckoutController@index')
-->name('checkout')
-->middleware(['auth','verified']);
-
-Route::post('/checkout/create/{detail_id}', 'CheckoutController@create')
-->name('checkout-create')
-->middleware(['auth','verified']);
-
-Route::post('/checkout/remove/{detail_id}', 'CheckoutController@remove')
-->name('checkout-remove')
-->middleware(['auth','verified']);
-
-Route::get('/checkout/confirm/{id}', 'CheckoutController@success')
-->name('checkout-success')
-->middleware(['auth','verified']);
-
-Route::prefix('admin')
-    ->namespace('Admin')
-    ->middleware(['auth','admin'])
-    ->group(function(){
-        Route::get('/','DashboardController@index')
-        ->name('dashboard');
->>>>>>> 29ff12519d03a6e3df07352a04477b84292c74fd
 
         Route::resource('travel-package', 'TravelPackageController');
         Route::resource('gallery', 'GalleryController');
         Route::resource('transaction', 'TransactionController');
     });
-<<<<<<< HEAD
 
 Auth::routes(['verify' => true]);
 
@@ -99,6 +56,3 @@ Route::post('/midtrans/callback', 'MidtransController@notificationHandler');
 Route::get('/midtrans/finish', 'MidtransController@finishRedirect');
 Route::get('/midtrans/unfinish', 'MidtransController@unfinishRedirect');
 Route::get('/midtrans/error', 'MidtransController@errorRedirect');
-=======
-Auth::routes(['verify' => true]);
->>>>>>> 29ff12519d03a6e3df07352a04477b84292c74fd

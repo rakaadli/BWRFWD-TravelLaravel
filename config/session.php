@@ -166,11 +166,7 @@ return [
     |
     */
 
-<<<<<<< HEAD
     'secure' => env('SESSION_SECURE_COOKIE', false),
-=======
-    'secure' => env('SESSION_SECURE_COOKIE'),
->>>>>>> 29ff12519d03a6e3df07352a04477b84292c74fd
 
     /*
     |--------------------------------------------------------------------------
@@ -192,7 +188,6 @@ return [
     |
     | This option determines how your cookies behave when cross-site requests
     | take place, and can be used to mitigate CSRF attacks. By default, we
-<<<<<<< HEAD
     | do not enable this as other CSRF protection services are in place.
     |
     | Supported: "lax", "strict"
@@ -200,14 +195,5 @@ return [
     */
 
     'same_site' => null,
-=======
-    | will set this value to "lax" since this is a secure default value.
-    |
-    | Supported: "lax", "strict", "none", null
-    |
-    */
-
-    'same_site' => 'lax',
->>>>>>> 29ff12519d03a6e3df07352a04477b84292c74fd
 
 ];

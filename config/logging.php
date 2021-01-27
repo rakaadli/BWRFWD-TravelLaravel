@@ -37,11 +37,7 @@ return [
     'channels' => [
         'stack' => [
             'driver' => 'stack',
-<<<<<<< HEAD
             'channels' => ['daily'],
-=======
-            'channels' => ['single'],
->>>>>>> 29ff12519d03a6e3df07352a04477b84292c74fd
             'ignore_exceptions' => false,
         ],
 
@@ -99,13 +95,6 @@ return [
             'driver' => 'monolog',
             'handler' => NullHandler::class,
         ],
-<<<<<<< HEAD
-=======
-
-        'emergency' => [
-            'path' => storage_path('logs/laravel.log'),
-        ],
->>>>>>> 29ff12519d03a6e3df07352a04477b84292c74fd
     ],
 
 ];

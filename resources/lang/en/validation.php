@@ -40,11 +40,7 @@ return [
     'dimensions' => 'The :attribute has invalid image dimensions.',
     'distinct' => 'The :attribute field has a duplicate value.',
     'email' => 'The :attribute must be a valid email address.',
-<<<<<<< HEAD
     'ends_with' => 'The :attribute must end with one of the following: :values',
-=======
-    'ends_with' => 'The :attribute must end with one of the following: :values.',
->>>>>>> 29ff12519d03a6e3df07352a04477b84292c74fd
     'exists' => 'The selected :attribute is invalid.',
     'file' => 'The :attribute must be a file.',
     'filled' => 'The :attribute field must have a value.',
@@ -114,11 +110,7 @@ return [
         'string' => 'The :attribute must be :size characters.',
         'array' => 'The :attribute must contain :size items.',
     ],
-<<<<<<< HEAD
     'starts_with' => 'The :attribute must start with one of the following: :values',
-=======
-    'starts_with' => 'The :attribute must start with one of the following: :values.',
->>>>>>> 29ff12519d03a6e3df07352a04477b84292c74fd
     'string' => 'The :attribute must be a string.',
     'timezone' => 'The :attribute must be a valid zone.',
     'unique' => 'The :attribute has already been taken.',

@@ -1,11 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<<<<<<< HEAD
 <div class="container d-none">
-=======
-<div class="container">
->>>>>>> 29ff12519d03a6e3df07352a04477b84292c74fd
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
@@ -74,7 +70,6 @@
         </div>
     </div>
 </div>
-<<<<<<< HEAD
 <main class="login-container">
       <div class="container">
         <div class="row page-login d-flex align-items-center">
@@ -160,6 +155,4 @@
         </div>
       </div>
     </main>
-=======
->>>>>>> 29ff12519d03a6e3df07352a04477b84292c74fd
 @endsection
