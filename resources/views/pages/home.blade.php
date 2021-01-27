@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-NOMADS
+BBJOO TRAVEL
 @endsection
 
 @section('content')

@@ -304,7 +304,7 @@
                                             <table cellpadding="0" cellspacing="0" width="100%" border="0" style="cellspacing:0;color:#000000;font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:13px;line-height:22px;table-layout:auto;width:100%;">
                                                 <tr>
                                                     <td style="width: 50px;"><img src="{{ url('frontend/images/ic-help.png') }}" width="50px"></td>
-                                                    <td style="font-size: 18px; padding-left: 10px; color: #071C4D; font-family: Assistant, Helvetica, Arial, sans-serif">support@nomads.id
+                                                    <td style="font-size: 18px; padding-left: 10px; color: #071C4D; font-family: Assistant, Helvetica, Arial, sans-serif">support@BBJOO.id
                                                         <br>021-2019-2022</td>
                                                 </tr>
                                             </table>
@@ -329,7 +329,7 @@
                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                                     <tr>
                                         <td align="center" style="font-size:0px;padding:10px 25px;padding-top:30px;padding-right:25px;padding-bottom:30px;padding-left:25px;word-break:break-word;">
-                                            <div style="font-family:font-family: Assistant, Helvetica, Arial, sans-serif;font-size:18px;line-height:1;text-align:center;color:#888B93;">2019 Nomads Copyright All Rights Reserved.</div>
+                                            <div style="font-family:font-family: Assistant, Helvetica, Arial, sans-serif;font-size:18px;line-height:1;text-align:center;color:#888B93;">2019 BBJOO Copyright All Rights Reserved.</div>
                                         </td>
                                     </tr>
                                 </table>
