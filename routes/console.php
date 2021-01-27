@@ -1,6 +1,10 @@
 <?php
 
 use Illuminate\Foundation\Inspiring;
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Facades\Artisan;
+>>>>>>> 29ff12519d03a6e3df07352a04477b84292c74fd
 
 /*
 |--------------------------------------------------------------------------

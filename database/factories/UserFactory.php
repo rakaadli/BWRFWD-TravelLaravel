@@ -1,6 +1,10 @@
 <?php
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
+<<<<<<< HEAD
+=======
+
+>>>>>>> 29ff12519d03a6e3df07352a04477b84292c74fd
 use App\User;
 use Faker\Generator as Faker;
 use Illuminate\Support\Str;

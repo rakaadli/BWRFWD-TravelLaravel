@@ -7,11 +7,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
+<<<<<<< HEAD
   <meta name="author" content="">
 
   <title>Bbjoo Travel Admin</title>
 
   @include('includes.admin.style')
+=======
+  <meta name="author">
+  
+  <title>RAPTRAVEL ADMIN</title>
+
+  @include('includes.admin.style');
+>>>>>>> 29ff12519d03a6e3df07352a04477b84292c74fd
 
 </head>
 
@@ -20,19 +28,34 @@
   <!-- Page Wrapper -->
   <div id="wrapper">
 
+<<<<<<< HEAD
     @include('includes.admin.sidebar')
+=======
+    @include('includes.admin.sidebar');
+>>>>>>> 29ff12519d03a6e3df07352a04477b84292c74fd
 
     <!-- Content Wrapper -->
     <div id="content-wrapper" class="d-flex flex-column">
 
       <!-- Main Content -->
       <div id="content">
+<<<<<<< HEAD
         @include('includes.admin.navbar')
         @yield('content')
       </div>
       <!-- End of Main Content -->
 
       @include('includes.admin.footer')
+=======
+        @include('includes.admin.navbar');
+
+        @yield('content')
+
+      </div>
+      <!-- End of Main Content -->
+
+      @include('includes.admin.footer');
+>>>>>>> 29ff12519d03a6e3df07352a04477b84292c74fd
 
     </div>
     <!-- End of Content Wrapper -->
@@ -57,17 +80,29 @@
         </div>
         <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
         <div class="modal-footer">
+<<<<<<< HEAD
             <form action="{{  url('logout') }}" method="POST">
                 @csrf
                 <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
                 <button class="btn btn-primary" type="submit">Logout</button>
             </form>
+=======
+        <form action="{{ url('logout') }}" method="POST">
+          @csrf
+          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+          <button class="btn btn-primary" type="submit">Logout</button>
+        </form>
+>>>>>>> 29ff12519d03a6e3df07352a04477b84292c74fd
         </div>
       </div>
     </div>
   </div>
 
+<<<<<<< HEAD
   @include('includes.admin.script')
+=======
+  @include('includes.admin.script');
+>>>>>>> 29ff12519d03a6e3df07352a04477b84292c74fd
 
 </body>
 

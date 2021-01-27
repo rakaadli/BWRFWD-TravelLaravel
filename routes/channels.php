@@ -1,5 +1,10 @@
 <?php
 
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Facades\Broadcast;
+
+>>>>>>> 29ff12519d03a6e3df07352a04477b84292c74fd
 /*
 |--------------------------------------------------------------------------
 | Broadcast Channels

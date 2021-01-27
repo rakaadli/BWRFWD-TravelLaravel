@@ -2,10 +2,10 @@ server {
     listen 80;
     listen [::]:80;
 
-    root /var/www/nomads.fullstackdeveloper.id/public;
+    root /var/www/nlts.bbjoo.com/public;
     index index.php index.html index.htm index.nginx-debian.html;
 
-    server_name nomads.fullstackdeveloper.id www.nomads.fullstackdeveloper.id;
+    server_name lts.bbjoo.com www.lts.bbjoo.com;
 
     location / {
           try_files $uri $uri/ /index.php?$query_string;
