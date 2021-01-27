@@ -33,8 +33,8 @@
             <ul class="list-unstyled">
               <li><a href="#">Jakarta Selatan</a></li>
               <li><a href="#">Indonesia</a></li>
-              <li><a href="#">0821 - 2222 - 8888</a></li>
-              <li><a href="#">support@nomads.id</a></li>
+              <li><a href="#">0821 - xxxx - 8888</a></li>
+              <li><a href="#">support@bbjoo.id</a></li>
             </ul>
           </div>
         </div>
