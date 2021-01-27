@@ -38,5 +38,5 @@ jobs:
             password: ${{ secrets.PASSWORD }}
             port: ${{ secrets.PORT }}
             script: |
-              cd ~/var/www/LaravelTravelSite
+              cd /var/www/LaravelTravelSite
               ls -lah
